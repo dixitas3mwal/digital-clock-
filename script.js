@@ -1,6 +1,6 @@
 function showTime(){
 
-```
+
 let time = new Date();
 
 let hours = time.getHours();
@@ -21,7 +21,7 @@ if(seconds < 10){
 
 document.getElementById("clock").innerHTML =
 hours + ":" + minutes + ":" + seconds;
-```
+
 
 }
 
